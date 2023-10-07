@@ -2,7 +2,7 @@ const About = ( ) => {
     return(
         <div>
             <h3>BIENVENIDO A MI APP</h3>
-            
+            <hr/>
             <p>APP RICK AND MORTY</p>
             <hr/>
             <h2>Bienvenido a mi app de Rick and morty
