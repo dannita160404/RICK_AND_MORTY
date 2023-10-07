@@ -1,0 +1,86 @@
+.contenedor{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    width: 420px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    transform: translate(130%, 25%);
+    border: 8px ridge chartreuse;
+    box-shadow: 0 0px 30px 2px rgba(44, 200, 69  , 100);
+
+}
+.contenedorlabel1{
+    padding: 25px;
+}
+.contenedorlabel{
+    padding: 15px;
+}
+.contenedorimagen{
+ background-image: url(./imagenes/formulario1.png);
+ width: 165px;
+ height: 210px;
+ position: relative;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, 8%);
+ border-radius: 50%;
+ padding: auto;
+ box-shadow: 0 0px 30px 2px rgba(44, 245, 69  , 100);
+
+ 
+}
+.contenedorprinci{
+    background-color: rgb(7, 17, 0);
+    height: 923px;
+    
+}
+
+.label{
+    justify-content: center;
+    padding: 6px;
+    font: bold 120% monospace;
+    color: chartreuse;
+    
+}
+
+.input{
+    justify-content: center;
+width: 180px;
+background-color: rgba(255, 255, 255, 0.861);
+border: 1px solid chartreuse;
+}
+
+.boton{
+    background-color:  rgb(77, 124, 30);
+    color: chartreuse;
+    font: bold 120% monospace;
+    height: 35px;
+}
+
+.boton:hover{
+    color: rgb(2, 2, 2);;
+    background-color: chartreuse;
+    box-shadow: 0 0px 30px 2px rgba(44, 245, 69  , 100);
+    margin: 1px solid black;
+   
+}
+
+
+.mensajes{
+    color: chartreuse;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .contenedorprinci{
+        background-color: rgb(7, 17, 0);
+         height: 707px;      
+    }
+
+   
+  }
+
+   
