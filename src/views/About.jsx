@@ -7,7 +7,7 @@ const About = ( ) => {
             <hr/>
             <h2>Bienvenido a mi app de Rick and morty
       
-            espero te guste y sea de una experiencia de agrado para ti muchas gracias</h2>
+            espero te guste y sea de una experiencia de agrado para ti Muchas Gracias </h2>
              
         </div>
     )
